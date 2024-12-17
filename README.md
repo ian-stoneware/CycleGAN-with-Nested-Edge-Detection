@@ -10,13 +10,11 @@ This project contains a CycleGAN model and a CycleGAN+HED model used for chinese
 
 2. Follow the steps below to set up the project environment.
 
-   For pip users:
-   Run the following command to install the required dependencies:
+For pip users:Run the following command to install the required dependencies:
    ```bash
    pip install -r requirements.txt
 
-   For Conda users:
-   Create a new environment and install dependencies using the command:
+For Conda users:Create a new environment and install dependencies using the command:
 
    ```bash
    conda env create -f environment.yml
