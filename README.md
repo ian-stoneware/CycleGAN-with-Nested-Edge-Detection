@@ -36,4 +36,5 @@ This project contains a CycleGAN model and a CycleGAN+HED model used for chinese
   ```
  - The test results will be saved to a html file here: `./results/chinesepainting_cyclegan/latest_test/index.html`.
 
+## Results:
 
