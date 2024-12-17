@@ -12,7 +12,8 @@ This project contains a CycleGAN model and a CycleGAN+HED model used for chinese
    git clone https://github.com/ian-stoneware/CycleGAN-with-Nested-Edge-Detection.git
    
    cd CycleGAN-with-Nested-Edge-Detection
-To view training results and loss plots, run python -m visdom.server and click the URL http://localhost:8097.
+To view training results and loss plots, run ```bash python -m visdom.server and click the URL http://localhost:8097.
+
 To log training progress and test images to W&B dashboard, set the --use_wandb flag with train and test script
 
 3. Train a model:
