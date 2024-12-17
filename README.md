@@ -34,5 +34,5 @@ This project contains a CycleGAN model and a CycleGAN+HED model used for chinese
   ```bash
 
   python test.py --dataroot ./datasets/chinesepainting --name chinesepainting_cyclegan --model cycle_gan
-  ```
+  
   - The test results will be saved to a html file here: `./results/chinesepainting_cyclegan/latest_test/index.html`.
