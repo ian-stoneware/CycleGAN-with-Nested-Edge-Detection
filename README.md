@@ -23,13 +23,13 @@ This project contains a CycleGAN model and a CycleGAN+HED model used for chinese
   - To view training results and loss plots, run `python -m visdom.server` and click the URL http://localhost:8097.
   - To log training progress and test images to W&B dashboard, set the `--use_wandb` flag with train and test script
 
-3. Train a model:
+4. Train a model:
   ```bash
   python train.py --dataroot ./datasets/chinesepainting --name chinesepainting_cyclegan --model cycle_gan
 
   -replace the --model cycle_gan to --model cycle_gan_hed
   -To see more intermediate results, check out `./checkpoints/chinesepainting_cyclegan/web/index.html`.
-4. Test the model:
+5. Test the model:
   ```bash
 
   python test.py --dataroot ./datasets/chinesepainting --name chinesepainting_cyclegan --model cycle_gan
