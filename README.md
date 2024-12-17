@@ -7,6 +7,7 @@ This project contains a CycleGAN model and a CycleGAN+HED model used for chinese
 1. Download the dataset from google drive
    ```bash
    https://drive.google.com/file/d/1rSNMLdYqi9pLS5ITbHrjYdhOXM0JXkBk/view?usp=sharing
+ <img src="https://github.com/ian-stoneware/CycleGAN-with-Nested-Edge-Detection/blob/main/results/1.png" width="800"/>
 
 2. Follow the steps below to set up the project environment.
 
@@ -37,4 +38,9 @@ This project contains a CycleGAN model and a CycleGAN+HED model used for chinese
  - The test results will be saved to a html file here: `./results/chinesepainting_cyclegan/latest_test/index.html`.
 
 ## Results:
-
+<img src="https://github.com/ian-stoneware/CycleGAN-with-Nested-Edge-Detection/blob/main/results/3.png" width="800"/>
+<img src="https://github.com/ian-stoneware/CycleGAN-with-Nested-Edge-Detection/blob/main/results/2.png" width="800"/>
+Comparison of CycleGAN model with CNN model:
+<img src="https://github.com/ian-stoneware/CycleGAN-with-Nested-Edge-Detection/blob/main/results/4.png" width="800"/>
+Comparison of CycleGAN model with CycleGAN+HED model:
+<img src="https://github.com/ian-stoneware/CycleGAN-with-Nested-Edge-Detection/blob/main/results/5.png" width="800"/>
