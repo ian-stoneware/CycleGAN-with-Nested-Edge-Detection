@@ -27,7 +27,7 @@ This project contains a CycleGAN model and a CycleGAN+HED model used for chinese
   ```bash
   python train.py --dataroot ./datasets/chinesepainting --name chinesepainting_cyclegan --model cycle_gan
   ```
- - replace the --model cycle_gan to --model cycle_gan_hed switch to the CycleGAN+HED model
+ - replace the `--model cycle_gan` to `--model cycle_gan_hed` switch to the CycleGAN+HED model
  - To see more intermediate results, check out `./checkpoints/chinesepainting_cyclegan/web/index.html`.
 
 5. Test the model:
