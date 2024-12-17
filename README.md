@@ -10,14 +10,9 @@ This project contains a CycleGAN model and a CycleGAN+HED model used for chinese
 
 2. Follow the steps below to set up the project environment.
 
-For pip users:Run the following command to install the required dependencies:
-   ```bash
-   pip install -r requirements.txt
-
-For Conda users:Create a new environment and install dependencies using the command:
-
-   ```bash
-   conda env create -f environment.yml
+- Install [PyTorch](http://pytorch.org) and 0.4+ and other dependencies (e.g., torchvision, [visdom](https://github.com/facebookresearch/visdom) and [dominate](https://github.com/Knio/dominate)).
+  - For pip users, please type the command `pip install -r requirements.txt`.
+  - For Conda users, you can create a new Conda environment using `conda env create -f environment.yml`.
 
 3. Clone the repository:
    ```bash
